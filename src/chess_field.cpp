@@ -8,7 +8,7 @@ Figure::Figure(FigureType type, FigureColor color) : type_(type), color_(color) 
 
 Figure fig{FigureType(), FigureColor()};
 
-auto Figure::get_type() -> FigureType
+auto Figure::get_type() -> FigureType       //
 {
     return this->type_;
 }
