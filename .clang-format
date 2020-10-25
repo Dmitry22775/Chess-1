@@ -1,0 +1,18 @@
+BasedOnStyle: GNU
+
+ColumnLimit: 200
+IndentWidth: 4
+ContinuationIndentWidth: 4
+AccessModifierOffset: -4
+MaxEmptyLinesToKeep: 3
+SpacesBeforeTrailingComments: 2
+Cpp11BracedListStyle: true
+BreakBeforeBraces: Linux
+SpaceBeforeParens: ControlStatements
+AllowShortFunctionsOnASingleLine: Empty
+AlwaysBreakAfterDefinitionReturnType: None
+AlwaysBreakAfterReturnType: None
+KeepEmptyLinesAtTheStartOfBlocks: false
+# Align backslashes in multiline defines to the left
+AlignEscapedNewlinesLeft: true
+Standard: c++20
